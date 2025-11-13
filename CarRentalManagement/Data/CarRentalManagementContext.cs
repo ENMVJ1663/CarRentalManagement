@@ -24,6 +24,7 @@ namespace CarRentalManagement.Data
             builder.ApplyConfiguration(new RoleSeed());
             builder.ApplyConfiguration(new UserRoleSeed());
             builder.ApplyConfiguration(new UserSeed());
+            builder.ApplyConfiguration(new VehicleSeed());
         }
     }
 }
